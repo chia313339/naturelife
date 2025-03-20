@@ -1,0 +1,7 @@
+/* 全域樣式，確保畫面不會捲動 */
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}

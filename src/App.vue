@@ -1,0 +1,23 @@
+<template>
+  <div id="app">
+    <!-- Vue Router 會根據路由切換顯示不同的分頁 -->
+    <router-view />
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
+<style>
+/* 設定全域樣式，確保畫面固定且全白背景 */
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+</style>
